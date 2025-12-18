@@ -1,7 +1,7 @@
 export const COMPANY_DETAILS = {
     name: "Info Tech India",
     email: "infoteachindia@gmail.com",
-    whatsappNumber: "917012971572", // Update with actual number
+    whatsappNumber: "919000000000", // Update with actual number
     services: [
         {
             id: 1,

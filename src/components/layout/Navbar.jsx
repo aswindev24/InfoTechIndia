@@ -26,7 +26,15 @@ const Navbar = () => {
     }, [location]);
 
     return (
-        <nav className={`fixed top-0 left-0 w-full z-40 transition-all duration-300 ${scrolled ? 'bg-primary/80 backdrop-blur-md border-b border-white/5 ' : 'bg-transparent '}`}>
+        <nav
+            className={`fixed top-0 left-0 w-full z-40 transition-all duration-300
+  ${scrolled
+                    ? 'bg-primary/80 backdrop-blur-md border-b border-white/5'
+                    : 'bg-transparent'
+                }
+            px-6 sm:px-0
+            `}
+        >
             <div className="container mx-auto px-6 flex justify-between items-center">
                 {/* Logo */}
                 <NavLink to="/" className="flex items-center gap-2">
